@@ -1,8 +1,9 @@
-function showAlert() {
-  alert("Pickup Booked Successfully!");
+function bookPickup() {
+  alert("Pickup Booked!");
 }
 
-// default language
-window.onload = () => {
-  setLanguage('en');
-};
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
+
+window.onload = () => setLanguage('en');
