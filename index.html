@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoSolapur</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>EcoSolapur</h2>
+
+  <div>
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('mr')">मराठी</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section>
+  <h1 id="title"></h1>
+  <p id="subtitle"></p>
+</section>
+
+<!-- PROBLEM -->
+<section>
+  <h2 id="problemTitle"></h2>
+  <p id="problemDesc"></p>
+</section>
+
+<!-- BUTTON -->
+<button onclick="showAlert()" id="ctaBtn"></button>
+
+<script src="lang.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
