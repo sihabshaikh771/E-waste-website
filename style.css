@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: #0a3d2e;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #063524;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: #a8f0d5;
+}
+
+section {
+  padding: 40px;
+}
