@@ -1,26 +1,64 @@
 body {
-  font-family: Arial;
-  background: #0a3d2e;
-  color: white;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
+  background: linear-gradient(135deg,#02140f,#0a3d2e);
+  color: white;
 }
 
+/* NAV */
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  background: #063524;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
 }
 
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(#a8f0d5,#4ecb9a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* CARDS */
+.card {
+  margin: 30px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #a8f0d5;
+}
+
+/* BUTTON */
 button {
-  padding: 10px;
-  margin: 5px;
+  padding: 12px 20px;
   border: none;
-  cursor: pointer;
   background: #a8f0d5;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
-section {
-  padding: 40px;
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 50px;
 }
